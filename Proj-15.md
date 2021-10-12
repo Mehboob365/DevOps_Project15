@@ -20,14 +20,32 @@ Cost, Security, and Scalability are the major requirements for this project. Hen
 
   2. Create subnets as shown in the architecture
   
+  ![image](https://user-images.githubusercontent.com/67065306/137033087-47f4b85e-ba38-423b-b8d5-fe6253a83b39.png)
+
+    
+  3. Create a route table and associate it with public subnets
   
+  ![image](https://user-images.githubusercontent.com/67065306/137033035-543a2262-42e6-45b6-8294-d9b9d7516e17.png)
+
     
-    Create a route table and associate it with public subnets
+  4. Create a route table and associate it with private subnets
+  
+  ![image](https://user-images.githubusercontent.com/67065306/137033489-b7cd7b57-98d1-4f92-829a-c92695381902.png)
+
+  ![image](https://user-images.githubusercontent.com/67065306/137033533-8231ef84-b855-4578-b5ad-5949b16dda16.png)
+
     
-    Create a route table and associate it with private subnets
+  5. Create an Internet Gateway
+  
+ ![image](https://user-images.githubusercontent.com/67065306/137033662-e570c753-a550-469b-94af-c64a7aa7b4a1.png)
+  
+  Edit a route in public route table, and associate it with the Internet Gateway. (This is what allows a public subnet to be accisble from the Internet)
+
+ ![image](https://user-images.githubusercontent.com/67065306/137033742-0c89255e-e489-4775-8b16-b9bdceeeea84.png)
+
     
-    Create an Internet Gateway
-    
-    Edit a route in public route table, and associate it with the Internet Gateway. (This is what allows a public subnet to be accisble from the Internet)
-    
-    Create 3 Elastic IPs
+  6. Create 3 Elastic IPs
+  
+  
+  
+  
