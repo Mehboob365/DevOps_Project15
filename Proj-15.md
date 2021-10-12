@@ -54,8 +54,6 @@ Cost, Security, and Scalability are the major requirements for this project. Hen
   
   9. Create a Security Group for:
 
-   Create a Security Group for:
-
      Nginx Servers: Access to Nginx should only be allowed from a Application Load balancer (ALB). At this point, we have not created a load balancer, 
      therefore we will update the rules later. For now, just create it and put some dummy records as a place holder.
   
