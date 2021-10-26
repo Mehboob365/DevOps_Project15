@@ -59,7 +59,6 @@ Cost, Security, and Scalability are the major requirements for this project. Hen
   
   
   
-  
      Bastion Servers: Access to the Bastion servers should be allowed only from workstations that need to SSH into the bastion servers. Hence, we can 
      use our workstation public IP address. To get this information, simply go to your terminal and type curl www.canhazip.com
   
